@@ -1,10 +1,18 @@
 /*タブレッット専用*/
 @media(max-width:1000px) {
-  
+  .menu-icon {
+    display: none;
+  }
 
 }
 
 /*スマートフォン*/
 @media(max-width:670px) {
+  .link {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
 
 }
