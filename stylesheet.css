@@ -3,7 +3,7 @@
 }
 
 header {
-  height:80px;
+  height:70px;
   background-color:black;
 }
 .logo {
@@ -43,6 +43,7 @@ header {
   background-image: url(http://soundsystem3104.com/wp-content/uploads/2016/12/url-2.jpeg);
   backgtround-size: cover;
   paddin-top: 30px;
+  color:white;
 }
 .container h1 {
   font-size: 40px;
