@@ -2,7 +2,37 @@
   box-sizing:border-box;
 }
 
-
+header {
+  height:80px;
+  background-color:black;
+}
+.logo {
+  float:left;
+}
+.header-logo {
+  width:50%;
+  margin:10px;
+  margin-top: 20px;
+}
+.header-logo p {
+  padding-top:15px ;
+  padding-left:10px;
+  color:red;
+}
+.header-list {
+  float: right;
+  color:white;
+}
+.link {
+  display: inline-block;
+  color:white;
+  font-size: 20px;
+  margin-bottom:20px;
+}
+.menu-icon {
+  font-size: 30px;
+  display:none;
+}
 .container {
   width:100%;
   margin:0 auto;
@@ -12,6 +42,7 @@
   height: 600px;
   background-image: url(http://soundsystem3104.com/wp-content/uploads/2016/12/url-2.jpeg);
   backgtround-size: cover;
+  paddin-top: 30px;
 }
 .container h1 {
   font-size: 40px;
@@ -26,4 +57,7 @@ li {
 }
 .board {
   float: left;
+}
+.introduce-wrapper {
+  height:600px;
 }
